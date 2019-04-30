@@ -3,7 +3,7 @@ import re
 import csv
 
 
-sqlite_file = '/Users/michaeltauberg/projects/NewsScraper/newsdb_v5.sqlite'
+sqlite_file = '/Users/michaeltauberg/projects/NewsScraper/newsdb_v6.sqlite'
 conn = sqlite3.connect(sqlite_file)
 c = conn.cursor()
 
@@ -58,7 +58,7 @@ for row in news_rows:
 	i = i + 1
 	print i
 
-OUTFILE = "politicians4.csv"
+OUTFILE = "politicians7.csv"
 
 i = 0
 
